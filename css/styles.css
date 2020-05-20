@@ -30,7 +30,7 @@ header {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: #330867;
+  background: #08aeea;
 }
 
 header #navbar {
@@ -56,8 +56,10 @@ header #navbar a:hover {
 
 #welcome-section {
   text-align: center;
-  background: -webkit-gradient(linear, left bottom, left top, from(#30cfd0), to(#330867));
-  background: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#2af598), to(#08aeea));
+  background: linear-gradient(to top, #2af598 0%, #08aeea 100%);
+  background-attachment: fixed;
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,8 +126,8 @@ header #navbar a:hover {
           flex-direction: column;
   min-width: 300px;
   max-height: 600px;
-  -webkit-box-shadow: 15px 14px 22px -12px rgba(0, 0, 0, 0.75);
-          box-shadow: 15px 14px 22px -12px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 15px 14px 22px -12px rgba(0, 0, 0, 0.315);
+          box-shadow: 15px 14px 22px -12px rgba(0, 0, 0, 0.315);
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -143,7 +145,7 @@ header #navbar a:hover {
 
 #projects #card-container .project-tile:hover a {
   font-size: 1.1em;
-  background: linear-gradient(45deg, #72bbff 0%, #330867 100%);
+  background: linear-gradient(45deg, #08aeea 0%, #2af598 100%);
 }
 
 #projects #card-container .project-tile a {
@@ -157,7 +159,7 @@ header #navbar a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   color: white;
-  background: #330867;
+  background: #08aeea;
   height: 100px;
   text-decoration: none;
 }
@@ -197,7 +199,7 @@ header #navbar a:hover {
 
 #contact #link-container a i {
   font-size: 8rem;
-  color: #330867;
+  color: #08aeea;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -205,7 +207,7 @@ header #navbar a:hover {
 #contact #link-container a i:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  color: #50aaff;
+  color: #2af598;
 }
 
 footer {
